@@ -1,0 +1,116 @@
+
+/*******************************************************************************************************************/
+/* la partie css de la page de connection
+/*******************************************************************************************************************/
+
+
+h1,h2{
+		display:bloc;
+	 color:#800000;
+	 text-align:center;
+	
+}
+.mainPage{
+	width:710px;
+	height:240px;
+	margin:100px auto;
+	padding:10px;
+	background-image: url('../images/guitare.jpg');
+	background-repeat:no-repeat;
+	background-position:left bottom;
+	box-shadow:12px 8px 14px 0px #696969;
+	border-radius:15px;
+}
+
+.pageInscrire{
+	width:710px;
+	height:290px;
+	margin:100px auto;
+	padding:10px;
+	background-image: url('../images/guitare.jpg');
+	background-repeat:no-repeat;
+	background-position:left top;
+	box-shadow:12px 8px 14px 0px #696969;
+	border-radius:15px;
+
+}
+
+
+.clear {
+	clear:both;
+}
+
+.formLabel {
+	float:left;
+	width:180px;
+	text-align:right;
+	padding-left:150px;
+	padding-right:5px;
+	color:#000000;
+	font-weight:bold;
+}
+
+.formInput {
+	float:left;
+	width:180px;
+}
+
+.formSeparator {
+	clear:both;
+	height:10px;
+}
+
+.inputImg{
+	margin-top:10px;
+	margin-left:320px;
+}
+
+.inscrit{
+	margin-top:20px;
+	margin-left:340px;
+	font-weight:bold;
+	
+}
+
+/*******************************************************************************************************************/
+/* la partie css de la page de chat 
+/*******************************************************************************************************************/
+.pagePrincipale{
+	width:730px;
+	height:500px;
+	margin:auto;
+	border:1px dashed black;
+	background-color:GrayText;
+}
+#ecran{
+	width:500px;
+	min-height:500px;
+	float:left;
+	background-color:GrayText;
+	color:#FFD700;
+	padding-left:10px;
+}
+
+#listeUsers{
+	width:206px;
+	height:500px;
+	float:left;
+	border:2px solid black;
+	color:white;
+	padding-left:10px;
+}
+
+.envoieTexte{
+	width:500px;
+	height:100px;
+	float:left;
+	border:2px solid black;
+}
+
+#message{
+	width:350px;
+	float:left;
+	margin:20px;
+	border:2px solid black;
+
+}

@@ -1,0 +1,227 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+html{
+	display:inline;
+	background-image:url('../design/ciel.png');
+	background-repeat:repeat-x;
+	text-align:center;
+	
+}
+
+h1{
+	width:544px;
+	height:234px;;
+	text-align:center;
+	margin:80px auto;
+	font-size:20px;
+	text-align:right;
+	background-image:url('../design/titre.png');
+	background-repeat:no-repeat;
+	color:#E30513;
+	font-family:Brush Script Std;
+}
+
+h2{
+	margin-bottom:20px;
+	color:black;
+	border-radius:5px;
+	font-size:22px;
+	font-family:Brush Script Std;
+}
+.connectPage{
+	display:none;
+	width:600px;
+	margin: 100px auto;
+	border:3px solid #C0C0C0;
+	border-radius:20px;
+	text-align:center;
+	padding-top:20px;
+	box-shadow:12px 14px 2px 0px #808080;
+	background-color:white;
+}
+.formLabel1 {
+	margin:50px 135px;
+	float:left;
+	font-size:20px;
+	font-weight:bold;
+	font-family:MV Boli;
+	color :#CC0000;
+}
+
+
+.formInput1{
+	margin:50px -90px;
+	float:left;
+	box-shadow:1px 2px 2px 0.1px black;
+}
+
+.formLabel2 {
+	margin-left: 120px;
+	float:left;
+	font-size:20px;
+	font-weight:bold;
+	font-family:MV Boli;
+	color :#CC0000;
+}
+
+
+.formInput2{
+	margin-left: 50px;
+	float:left;
+	box-shadow:1px 2px 2px 0.1px black;
+	
+}
+.clear{
+	clear:both;
+	
+}
+
+.inscrit{
+	margin-top:40px;
+
+}
+
+.inputImg{ 
+	margin-top:10px;
+	margin-bottom:20px;
+}
+
+.central{
+	width:800px;
+	height:550px;
+	margin:20px auto;
+	
+	background-color:transparent;
+	
+}
+
+.boutons{
+	width:160px;
+	height:550px;
+	float:left;
+	border-right:1px solid black;
+	background-color:transparent;
+	opacity:0.1px;
+
+}
+
+.inputAcceuil{
+	display:inline;
+	text-align:center;
+	width:140px;
+	height:32px;
+	margin:10px;
+	float:left;
+	border:1px solid black;
+	background-color:white;
+	box-shadow:1px 2px 2px 0.1px black;
+}
+
+.affiche{
+	width:620px;
+	float:left;
+	margin-left:10px;
+	margin-top:40px;
+	height:550px;
+	background-color:white;
+	text-align:left;
+	padding-left:5px;
+	padding-top:5px;
+	margin-top:-5px;
+	box-shadow:4px 4px 2px 0.1px black;
+	font-weight:bold;
+}
+#messge{
+	width:400px;
+	height:30px;
+	margin:auto;
+	color:red;
+}
+
+.titre{
+	width:300px;
+	height:60px;
+	margin:auto;
+	padding:2px;
+	background-color:transparent;
+	
+}
+.titre h2{
+	width:100px;
+	height:30px;
+	margin:auto ;
+	margin-bottom:10px;
+	color:black;
+	background-color:white;
+	box-shadow:1px 2px 2px 0.1px red;
+}
+
+
+.modifierProfil {
+	width:400px;
+	height:80px;
+	margin:10px auto;
+	text-align:left;
+	padding:20px;
+	font-size:22px;
+	font-weight:bold;
+	
+}
+
+.modifierProfil ul li{
+	list-style-type: none;
+}
+
+
+
+a {
+	text-decoration: none; /* Les liens ne seront plus soulignés */
+	color: red; /* Les liens seront en blanc au lieu de bleu */
+   }
+
+	a:hover {
+		text-decoration:none;
+		color: black;
+	}
+
+#affichage{
+		
+}
+#nom{
+	display: none;
+	width:600px;
+	float:left;
+	height: 20px;
+	margin-left:300px;
+	margin-top:-25px;
+	font-size:16px;
+}
+
+
+
+#email{
+	display: none;
+	width:200px;
+	height: 20px;
+	margin-left:300px;
+	margin-top:-25px;
+	font-size:16px;
+}
+
+
+
+
+#mdp{
+	display: none;
+	width:400px;
+	height: 60px;
+	margin-left:300px;
+	font-size:16px;
+}
+
+.formLabel, .formInput{
+	float:left;
+}
